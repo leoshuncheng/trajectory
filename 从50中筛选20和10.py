@@ -1,7 +1,7 @@
 import shutil
 import os,re,sys,scipy.stats as st
 
-RootPath = "D:\\trajectory_last\\服务器上拷过来的\\Geolife20afterMD" #要先把50的文件考进去，然后修改路径名
+RootPath = "D:\\trajectory_last\\服务器上拷过来的\\Geolife20afterMD" #要先把50的文件拷贝进去，然后修改路径名
 
 def file_names(file_dir):
     for root, dirs, files in os.walk(file_dir):
